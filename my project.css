@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: white;
+}
+nav {
+  word-spacing: 4px;
+  padding-top: 30px;
+}
+.home nav a {
+  font-size: 70px;
+  font-style: bold;
+  font-weight: bolder;
+  color: black;
+  background-color: blanchedalmond;
+  margin: 20px;
+  border: 5px solid;
+  border-color: crimson;
+  border-radius: 20px/20px;
+  text-decoration: none;
+}
+nav a:hover {
+  background-color: white;
+}
+.home {
+  background-color: white;
+}
+.intro {
+  text-align: center;
+  display: flex;
+  margin: 40px;
+  background-color: white;
+}
+.intro h1 {
+  color: tomato;
+}
+#me {
+  width: 300px;
+  height: 300px;
+  border-radius: 200px;
+  margin-left: 150px;
+}
+.about {
+  background-color: yellowgreen;
+  font-size: 28px;
+}
+.about h1 {
+  text-align: center;
+  color: tomato;
+}
+.work {
+  background-color: thistle;
+  text-align: center;
+}
+.work img {
+  margin: 20px;
+  border-width: 10px;
+  border-color: tomato;
+  border-radius: 40px;
+}
+.work h1 {
+  text-align: center;
+}
+.reseum {
+  background-color: thistle;
+  text-align: center;
+}
+.resume img {
+  margin: 20px;
+  border-width: 10px;
+  border-color: tomato;
+  border-radius: 40px;
+}
+.resume h1 {
+  text-align: center;
+}
